@@ -22,7 +22,7 @@
 'use strict';
 
 //Here you can issue the generated Public key pair.
-const applicationServerPublicKey = 'BMU-q_YkrcM2o8OwSShL0gkqNQVSaanV5I_ZlnclXBWB-Eq02guI5mpTH4khZrp8V-UGor-VG8W1oztxOX7zH0A';
+const applicationServerPublicKey = 'BIJrQW0Q6G-NTvtXQEPsCoQiNMmZwYHInnQ3y_hELynjAa_tWoTicIK0YyD1qGmb8Quxf-R_aQIKoqSTOcUQ810';
 
 const pushButton = document.querySelector('.js-push-btn');
 
