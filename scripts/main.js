@@ -177,12 +177,12 @@ function subscribeUser() {
 The method updateSubscriptionOnServer is a method where in a real application we would send our subscription to a backend, but for our codelab we are going to print the subscription in our UI which will help us later on.
 */
 function updateSubscriptionOnServer(subscription) {
-    debugger;
-    // TODO: Send subscription to application server
-    console.log("updateSubscriptionOnServer(subscription): ", subscription);
+    // TODO: Send subscription to application server    
     const subscriptionJson = document.querySelector('.js-subscription-json');
     const subscriptionDetails =
         document.querySelector('.js-subscription-details');
+
+    console.log("Subscription Details: ", subscriptionDetails);
 
     if (subscription) {
         subscriptionJson.textContent = JSON.stringify(subscription);
